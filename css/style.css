@@ -206,7 +206,6 @@ body {
 .cat__link {
   text-decoration: none;
   color: #000;
-  font-style: 15px;
 }
 
 .cat__link:hover {
@@ -334,7 +333,6 @@ body {
 
 .modal__close {
   font-size: 43px;
-  font-weight: 0;
   color: rgba(0, 0, 0, 0.644);
   border: none;
   background: transparent;
@@ -648,7 +646,6 @@ body {
 .mod__bag-ls-btn-one {
   width: 100%;
   text-decoration: none;
-  font-style: 16px;
   padding: 16px 160px;
   background: #f11d22;
   color: #fff;
@@ -664,7 +661,6 @@ body {
 .mod__bag-ls-btn-two {
   width: 100%;
   text-decoration: none;
-  font-style: 16px;
   padding: 16px 165px;
   color: #414141;
   font-family: sans-serif;
@@ -951,9 +947,6 @@ body {
   width: 320px;
   height: 495px;
   margin: 5px 0;
-}
-
-.shoop__list:hover {
   cursor: pointer;
 }
 
@@ -973,6 +966,7 @@ body {
   background-size: cover;
   z-index: 100;
   transition: all 0.5s ease;
+  text-decoration: none;
 }
 
 .shoop__list:hover .shoop__img-box {
@@ -1060,11 +1054,18 @@ body {
   background-image: url('https://rubiktheme.com/demo/rb_stark_demo/56-home_default/brown-bear-cushion.jpg');
 }
 
+.shoop__icons__img-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 380px;
+}
+
 .shop__img-icon {
   position: absolute;
-  bottom: 20px;
-  left: 63px;
   bottom: 38px;
+  left: 63px;
   width: 60px;
   height: 50px;
   background: #000;
@@ -1075,6 +1076,7 @@ body {
   border-radius: 3px;
   transition: all 0.5s ease;
   border: none;
+  z-index: 100;
 }
 
 .sh-i-ic-2 {
@@ -1100,16 +1102,20 @@ body {
   bottom: 20px;
 }
 
-.shoop__img-box:hover .sh-i-ic-2 {
+.shoop__list:hover .sh-i-ic-2 {
   opacity: 1;
-  transition: all 0.6s ease;
+  transition: all 0.7s ease;
   bottom: 20px;
 }
 
-.shoop__img-box:hover .sh-i-ic-3 {
+.shoop__list:hover .sh-i-ic-3 {
   opacity: 1;
   transition: all 0.9s ease;
   bottom: 20px;
+}
+
+.shoop__link-text{
+  text-decoration: none;
 }
 
 .shoop__link-tit {
