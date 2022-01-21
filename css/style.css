@@ -1360,7 +1360,7 @@ body {
 
 .logos__menu {
   list-style-type: none;
-  width: 5000px;
+  width: 3000px;
   height: 120px;
   overflow: hidden;
 }
@@ -1383,13 +1383,8 @@ body {
     animation-delay: 3s;
   }
 
-  75% {
-    transform: translate3d(-2100px, 0, 0);
-    animation-delay: 3s;
-  }
-
   100% {
-    transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(0px, 0, 0);
   }
 
 }
