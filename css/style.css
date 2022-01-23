@@ -1123,7 +1123,7 @@ body {
   font-family: sans-serif;
   top: 10px;
   left: 20px;
-  width: 145px;
+  width: 125px;
   z-index: 110;
   margin: 2px 0;
   color: #fff;
@@ -1171,7 +1171,7 @@ body {
 }
 
 .shop-link-texttt {
-  width: 100px;
+  width: 80px;
   padding: 0 6px;
   margin: 2px 0;
   color: #fff;
