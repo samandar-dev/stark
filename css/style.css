@@ -1127,9 +1127,8 @@ body {
   font-family: sans-serif;
   top: 10px;
   left: 20px;
-  width: 140px;
+  width: 145px;
   z-index: 110;
-  padding-right: 6px;
   margin: 2px 0;
   color: #fff;
   background: #2fb5d2;
@@ -1145,9 +1144,7 @@ body {
 .shoop__link-span {
   background: red;
   margin-right: 6px;
-  padding: 1px 0;
-  padding-bottom: 2px;
-  padding-left: 7px;
+  padding: 4.5px;
 }
 
 .shop-text-star {
@@ -1178,7 +1175,7 @@ body {
 }
 
 .shop-link-texttt {
-  width: 98px;
+  width: 100px;
   padding: 0 6px;
   margin: 2px 0;
   color: #fff;
